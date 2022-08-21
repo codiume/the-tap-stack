@@ -1,7 +1,10 @@
 ---
 import { Seo } from 'astro-seo-meta';
 
+import { getArticles } from '../loaders';
 import Article from '../components/Article.astro';
+
+const articles = await getArticles();
 ---
 
 <html lang="en">
@@ -11,7 +14,7 @@ import Article from '../components/Article.astro';
     <meta name="generator" content={Astro.generator} />
     <Seo
       title="The Tapp stack"
-      description="Opiniated stack for those who want to live on the dege"
+      description="An opinionated stack for those who want to live on the edge (Typescript + Astro + Prisma + Planet scale)"
       icon="favicon.ico"
     />
   </head>
@@ -26,21 +29,15 @@ import Article from '../components/Article.astro';
       </div>
 
       <div class="space-y-6">
-        <Article
-          title="Astro 1.0 is out now!"
-          summary="We are thrilled to announce Astro v1.0: a web framework for building fast, content-focused websites."
-          date="August 09, 2022"
-        />
-        <Article
-          title="Astro 1.0 Release Update"
-          summary="Astro v1.0.0 has a new release date! We're pushing back our v1.0.0 release to late July in order to make some final developer experience improvements to Astro."
-          date="June 06, 2022"
-        />
-        <Article
-          title="Astro on Netlify Edge Functions"
-          summary="With edge rendering you bring SSR closer to your users, getting those first bytes to the browser, faster. Combined with serving static assets at the edge"
-          date="May 19, 2022"
-        />
+        {
+          articles.map((article) => (
+            <Article
+              title={article.title}
+              summary={article.summary}
+              date={article.date.toISOString()}
+            />
+          ))
+        }
       </div>
     </section>
   </body>
