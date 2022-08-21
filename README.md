@@ -1,16 +1,15 @@
 # 🌖 The TAP Stack
 
-- [🌖 The TAP Stack](#-the-tap-stack)
-  - [What is the TAP Stack?](#what-is-the-tap-stack)
-    - [Is this some kinda template?](#is-this-some-kinda-template)
-    - [Can I deploy it to platforms ?](#can-i-deploy-it-to-platforms-)
-    - [Does it include to much boilerplate ?](#does-it-include-to-much-boilerplate-)
-  - [📦 Getting Started](#-getting-started)
-    - [Using your package manager](#using-your-package-manager)
-    - [Using Github interface](#using-github-interface)
-    - [Deploy with Vercel](#deploy-with-vercel)
-  - [Setup database](#setup-database)
-  
+<p align="center"><img src="/public/cover.png" width="600"></p>
+
+## Table of contents
+
+- [🌖 What is the TAP Stack?](#what-is-the-tap-stack)
+- [📦 Getting Started](#getting-started)
+- [📖 Guides](#guides)
+- [📝 Contributing](#contributing)
+- [❤️ Acknowledgements](#acknowledgements)
+
 ## What is the TAP Stack?
 
 The **"TAP Stack"** is a web development stack focused on simplicity & fast performance. It consists of:
@@ -50,7 +49,7 @@ No we promise, here is the entire project structure:
 └── package.json
 ```
 
-## 📦 Getting Started
+## Getting Started
 
 ### Using your package manager
 
@@ -80,14 +79,26 @@ You can also deploy directly this project to your Vercel account:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcodiume%2Fthe-tap-stack&env=DATABASE_URL)
 
-## Setup database
+## Guides
+
+### Setup a Prisma & Database
 
 1. Create a database on PlanetScale
 2. Copy `DATABASE_URL` from PlanetScale to your `.env`
 3. Push your prisma schema to PlanetScale `npx prisma db push`
 
-[astro]:https://astro.build
-[planetscale]:https://planetscale.com
-[prisma]:https://www.prisma.io
-[tailwindcss]:https://tailwindcss.com
-[typescript]:https://www.typescriptlang.org
+## Contributing
+
+Please see [contributing.md](CONTRIBUTING.md) for details.
+
+## Acknowledgements
+
+The **TAP** Stack is inspired by [t3][t3] and all the amazing work [Julius Marminge][juliusmarminge] and the community is doing developing it.
+
+[astro]: https://astro.build
+[planetscale]: https://planetscale.com
+[prisma]: https://www.prisma.io
+[tailwindcss]: https://tailwindcss.com
+[typescript]: https://www.typescriptlang.org
+[t3]: https://github.com/t3-oss/create-t3-app
+[juliusmarminge]: https://github.com/juliusmarminge
