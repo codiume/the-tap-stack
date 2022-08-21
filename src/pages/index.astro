@@ -1,10 +1,10 @@
 ---
 import { Seo } from 'astro-seo-meta';
 
-import { getArticles } from '../loaders';
+import { articlesLoader } from '../loaders';
 import Article from '../components/Article.astro';
 
-const articles = await getArticles();
+const articles = await articlesLoader();
 ---
 
 <html lang="en">

@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 // get articles from database
 const prisma = new PrismaClient();
 
-export const getArticles = async () => {
+export const articlesLoader = async () => {
   return await prisma.article.findMany({
     select: {
       id: true,
