@@ -1,8 +1,14 @@
-# The TAPP Stack
+# The TAP Stack
 
 ```bash
-npm init astro -- --template minimal
+git clone git@github.com:codiume/the-tap-stack.git
 ```
+
+## Deployed Demo
+
+- **Vercel**: [https://the-tap-stack.vercel.app]
+- **Netlify**: [https://the-tap-stack.netlify.app]
+- **Cloudflare Pages**: [https://the-tap-stack.pages.dev]
 
 ## 🚀 Project Structure
 
@@ -10,6 +16,8 @@ Inside of your Astro project, you'll see the following folders and files:
 
 ```txt
 /
+├── prisma/
+│   └── schema.prisma
 ├── public/
 ├── src/
 │   └── pages/
@@ -18,6 +26,12 @@ Inside of your Astro project, you'll see the following folders and files:
 │       └── Article.astro
 └── package.json
 ```
+
+## Running locally
+
+1. Create a database on PlanetScale
+2. Edit your prisma schema
+3. Push changed to db `npx prisma db push`
 
 ## 🧞 Commands
 

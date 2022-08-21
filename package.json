@@ -1,5 +1,5 @@
 {
-  "name": "the-tapp-stack",
+  "name": "the-tap-stack",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,8 @@
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
     "astro": "^1.0.6",
-    "astro-seo-meta": "^0.0.2"
+    "astro-seo-meta": "^0.0.2",
+    "prisma": "^4.2.1",
+    "@prisma/client": "^4.2.1"
   }
 }
