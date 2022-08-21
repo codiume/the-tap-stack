@@ -1,0 +1,47 @@
+---
+import { Seo } from 'astro-seo-meta';
+
+import Article from '../components/Article.astro';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <Seo
+      title="The Tapp stack"
+      description="Opiniated stack for those who want to live on the dege"
+      icon="favicon.ico"
+    />
+  </head>
+  <body class="bg-[#080b16]">
+    <section class="flex flex-col p-24 px-48">
+      <div class="space-y-3 mb-12">
+        <h2 class="text-xl font-light leading-none text-white">Latest posts</h2>
+        <p class="text-[#707070] text-xs">By Astro</p>
+        <hr
+          class="border border-dotted border-b-transparent border-x-transparent border-white/10"
+        />
+      </div>
+
+      <div class="space-y-6">
+        <Article
+          title="Astro 1.0 is out now!"
+          summary="We are thrilled to announce Astro v1.0: a web framework for building fast, content-focused websites."
+          date="August 09, 2022"
+        />
+        <Article
+          title="Astro 1.0 Release Update"
+          summary="Astro v1.0.0 has a new release date! We're pushing back our v1.0.0 release to late July in order to make some final developer experience improvements to Astro."
+          date="June 06, 2022"
+        />
+        <Article
+          title="Astro on Netlify Edge Functions"
+          summary="With edge rendering you bring SSR closer to your users, getting those first bytes to the browser, faster. Combined with serving static assets at the edge"
+          date="May 19, 2022"
+        />
+      </div>
+    </section>
+  </body>
+</html>

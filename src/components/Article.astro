@@ -1,0 +1,29 @@
+---
+export interface Props {
+  title: string;
+  summary: string;
+  date: string;
+}
+
+const { title, summary, date } = Astro.props as Props;
+---
+
+<article aria-label="Blog post list" class="space-y-3">
+  <header class="space-y-3">
+    <p class="text-xs text-[#707070]">{date}</p>
+    <div>
+      <h1 class="text-base font-light leading-none text-white">
+        {title}
+      </h1>
+    </div>
+  </header>
+  <p class="text-[#707070] text-xs">{summary}</p>
+  <a
+    class="text-white/70 text-xs hover:text-white before:content-['↳_']"
+    href="#"
+    >Read more
+  </a>
+  <hr
+    class="mt-4 border border-dotted border-b-transparent border-x-transparent border-white/10"
+  />
+</article>

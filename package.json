@@ -1,0 +1,18 @@
+{
+  "name": "the-tapp-stack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/tailwind": "^1.0.0",
+    "astro": "^1.0.6",
+    "astro-seo-meta": "^0.0.2"
+  }
+}
