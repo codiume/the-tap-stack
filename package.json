@@ -12,9 +12,9 @@
   "devDependencies": {
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
-    "@prisma/client": "^4.2.1",
     "astro": "^1.0.6",
     "astro-seo-meta": "^0.0.2",
-    "prisma": "^4.2.1"
+    "prisma": "^4.2.1",
+    "@prisma/client": "^4.2.1"
   }
 }
