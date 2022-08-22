@@ -1,5 +1,11 @@
 # 🌖 The TAP Stack
 
+![](https://img.shields.io/badge/Code-Typescript-informational?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/Code-Tailwind-informational?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![](https://img.shields.io/badge/Code-Astro-informational?style=for-the-badge&logo=astro&logoColor=white)
+![](https://img.shields.io/badge/Tools-Prisma-informational?style=for-the-badge&logo=prisma&logoColor=white)
+![](https://img.shields.io/badge/Tools-planetscale-informational?style=for-the-badge&logo=planetscale&logoColor=white)
+
 <p align="center"><img src="/public/cover.png" width="600"></p>
 
 ## Table of contents
