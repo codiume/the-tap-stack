@@ -1,12 +1,6 @@
 # 🌖 The TAP Stack
 
-![](https://img.shields.io/badge/Code-Typescript-informational?style=for-the-badge&logo=typescript&logoColor=white)
-![](https://img.shields.io/badge/Code-Tailwind-informational?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![](https://img.shields.io/badge/Code-Astro-informational?style=for-the-badge&logo=astro&logoColor=white)
-![](https://img.shields.io/badge/Tools-Prisma-informational?style=for-the-badge&logo=prisma&logoColor=white)
-![](https://img.shields.io/badge/Tools-planetscale-informational?style=for-the-badge&logo=planetscale&logoColor=white)
-
-<p align="center"><img src="/public/cover.png" width="600"></p>
+<p align="center"><img src="/public/cover.png"></p>
 
 ## Table of contents
 
@@ -16,13 +10,15 @@
 - [📝 Contributing](#contributing)
 - [❤️ Acknowledgements](#acknowledgements)
 
-## What is the TAP Stack?
+## Philosphy
+
+### What is the TAP Stack?
 
 The **"TAP Stack"** is a web development stack focused on simplicity & fast performance. It consists of:
 
-- **T**: [Typescript][typescript] & [Tailwindcss][tailwindcss]
-- **A**: [Astro][astro]
-- **P**: [Prisma][prisma] & [Planetscale][planetscale]
+- **T**: ![](https://img.shields.io/badge/Code-Typescript-informational?style=for-the-badge&logo=typescript&logoColor=white) ![](https://img.shields.io/badge/Code-Tailwind-informational?style=for-the-badge&logo=tailwindcss&logoColor=white)
+- **A**: ![](https://img.shields.io/badge/Code-Astro-informational?style=for-the-badge&logo=astro&logoColor=white)
+- **P**: ![](https://img.shields.io/badge/Tools-Prisma-informational?style=for-the-badge&logo=prisma&logoColor=white) ![](https://img.shields.io/badge/Tools-planetscale-informational?style=for-the-badge&logo=planetscale&logoColor=white)
 
 ### Is this some kinda template?
 
@@ -37,23 +33,6 @@ Yes, this repo in itself is already deployed to following platforms:
 - **Vercel**: [https://the-tap-stack.vercel.app]
 - **Netlify**: [https://the-tap-stack.netlify.app]
 - **Cloudflare Pages**: [https://the-tap-stack.pages.dev]
-
-### Does it include to much boilerplate ?
-
-No we promise, here is the entire project structure:
-
-```txt
-/
-├── prisma/
-│   └── schema.prisma
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-│   └── components/
-│       └── Article.astro
-└── package.json
-```
 
 ## Getting Started
 
@@ -84,6 +63,21 @@ This template repo can be used to scaffold your astro website. Follow these step
 You can also deploy directly this project to your Vercel account:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcodiume%2Fthe-tap-stack&env=DATABASE_URL)
+
+## Project Structure
+
+```txt
+/
+├── prisma/
+│   └── schema.prisma
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+│   └── components/
+│       └── Article.astro
+└── package.json
+```
 
 ## Guides
 
