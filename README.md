@@ -1,6 +1,6 @@
 # 🌖 The TAP Stack
 
-<p align="center"><img src="/public/cover.png"></p>
+![cover](/public/cover.png "tap stack")
 
 ## Table of contents
 
@@ -10,15 +10,15 @@
 - [📝 Contributing](#contributing)
 - [❤️ Acknowledgements](#acknowledgements)
 
-## Philosphy
+## Philosophy
 
 ### What is the TAP Stack?
 
 The **"TAP Stack"** is a web development stack focused on simplicity & fast performance. It consists of:
 
-- **T**: ![](https://img.shields.io/badge/Code-Typescript-informational?style=for-the-badge&logo=typescript&logoColor=white) ![](https://img.shields.io/badge/Code-Tailwind-informational?style=for-the-badge&logo=tailwindcss&logoColor=white)
-- **A**: ![](https://img.shields.io/badge/Code-Astro-informational?style=for-the-badge&logo=astro&logoColor=white)
-- **P**: ![](https://img.shields.io/badge/Tools-Prisma-informational?style=for-the-badge&logo=prisma&logoColor=white) ![](https://img.shields.io/badge/Tools-planetscale-informational?style=for-the-badge&logo=planetscale&logoColor=white)
+- **T**: [![typescript][typescript-badge]][typescript] [![tailwindcss][tailwindcss-badge]][tailwindcss]
+- **A**: [![astro][astro-badge]][astro]
+- **P**: [![prisma][prisma-badge]][prisma] [![planetscale][planetscale-badge]][planetscale]
 
 ### Is this some kinda template?
 
@@ -102,3 +102,10 @@ The **TAP** Stack is inspired by [t3][t3] and all the amazing work [Julius Marmi
 [typescript]: https://www.typescriptlang.org
 [t3]: https://github.com/t3-oss/create-t3-app
 [juliusmarminge]: https://github.com/juliusmarminge
+
+<!-- Badges -->
+[typescript-badge]: https://img.shields.io/badge/Code-Typescript-informational?style=for-the-badge&logo=typescript&logoColor=white
+[tailwindcss-badge]: https://img.shields.io/badge/Code-Tailwind-informational?style=for-the-badge&logo=tailwindcss&logoColor=white
+[astro-badge]: https://img.shields.io/badge/Code-Astro-informational?style=for-the-badge&logo=astro&logoColor=white
+[prisma-badge]: https://img.shields.io/badge/Tools-Prisma-informational?style=for-the-badge&logo=prisma&logoColor=white
+[planetscale-badge]: https://img.shields.io/badge/Tools-planetscale-informational?style=for-the-badge&logo=planetscale&logoColor=white
