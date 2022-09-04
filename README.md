@@ -1,6 +1,6 @@
 # 🌖 The TAP Stack
 
-![cover](/public/cover.png "tap stack")
+![cover](/public/cover.png 'tap stack')
 
 ## Table of contents
 
@@ -104,6 +104,7 @@ The **TAP** Stack is inspired by [t3][t3] and all the amazing work [Julius Marmi
 [juliusmarminge]: https://github.com/juliusmarminge
 
 <!-- Badges -->
+
 [typescript-badge]: https://img.shields.io/badge/Code-Typescript-informational?style=for-the-badge&logo=typescript&logoColor=white
 [tailwindcss-badge]: https://img.shields.io/badge/Code-Tailwind-informational?style=for-the-badge&logo=tailwindcss&logoColor=white
 [astro-badge]: https://img.shields.io/badge/Code-Astro-informational?style=for-the-badge&logo=astro&logoColor=white

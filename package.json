@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "check": "astro check"
+    "check": "astro check",
+    "format": "prettier --write \"**/*.{ts,tsx,md,astro}\""
   },
   "devDependencies": {
     "@astrojs/sitemap": "^1.0.0",
@@ -16,6 +17,8 @@
     "astro": "^1.0.6",
     "astro-seo-meta": "^0.0.2",
     "prisma": "^4.2.1",
-    "@prisma/client": "^4.2.1"
+    "@prisma/client": "^4.2.1",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.3"
   }
 }
